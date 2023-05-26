@@ -11,6 +11,8 @@ const updateDetails = (url, title, author) => {
     memeAuthor.innerHTML = `Meme by: ${author}`;
 };
 
+
+
 const generateMeme = () => {
     fetch("https://meme-api.com/gimme/astrologymemes")
     .then((response) => response.json())
